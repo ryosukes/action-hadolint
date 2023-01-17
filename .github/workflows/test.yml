@@ -15,7 +15,6 @@ jobs:
         with:
           reporter: github-check
           level: info
-          exclude: Dockerfile.dockerignore
 
   test-pr-review:
     if: github.event_name == 'pull_request'
